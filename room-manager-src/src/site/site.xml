@@ -1,0 +1,18 @@
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
+
+    <version position="right"/>
+    <publishDate position="right"/>
+
+    <body>
+        <breadcrumbs>
+            <item href="index.html" name="Home" />
+        </breadcrumbs>
+        <menu ref="reports" />
+    </body>
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-fluido-skin</artifactId>
+        <version>1.8</version>
+    </skin>
+</site>
